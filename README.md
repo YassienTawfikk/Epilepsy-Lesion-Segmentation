@@ -10,14 +10,32 @@ This super repository integrates two independent research pipelines developed as
 
 ---
 
+## 🎓 Graduation Defense & Video Presentation
+
+We invite you to watch our full graduation project defense video presentation and review our final slide deck:
+
+<p align="center">
+  <a href="https://youtu.be/r8zxcXHgXfw?si=6211Zq6YrOgrMYU7">
+    <img src="https://img.youtube.com/vi/r8zxcXHgXfw/maxresdefault.jpg" alt="Watch the Graduation Project Defense Video" width="90%">
+  </a>
+  <br>
+  <em>▶ <a href="https://youtu.be/r8zxcXHgXfw?si=6211Zq6YrOgrMYU7">Click the thumbnail above to watch the full graduation project video presentation on YouTube</a></em>
+</p>
+
+* **📄 Presentation Slide Deck**: View and download our complete defense presentation: **[`presentation/GP_Final_Defense_FCD_Segmentation.pdf`](./presentation/GP_Final_Defense_FCD_Segmentation.pdf)**
+* **🎥 Video Presentation Link**: [Watch on YouTube (`youtu.be/r8zxcXHgXfw`)](https://youtu.be/r8zxcXHgXfw?si=6211Zq6YrOgrMYU7)
+
+---
+
 ## 🏛️ Repository Architecture & Submodules
 
-This repository is structured as a **Super Repository** containing two linked submodules:
+This repository is structured as a **Super Repository** containing two linked submodules alongside our defense materials:
 
 ```text
 Epilepsy-Lesion-Segmentation/
 ├── .gitmodules           # Submodule configuration linking remote repositories
 ├── README.md             # This overview documentation
+├── presentation/         # Final defense presentation slide deck (PDF)
 ├── SynthFCD/             # Submodule: Synthetic Data Generation Pipeline
 └── nnU-FCD/              # Submodule: nnU-Net v2 Evaluation & Segmentation Pipeline
 ```
