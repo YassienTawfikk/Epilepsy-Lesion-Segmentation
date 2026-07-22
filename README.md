@@ -69,11 +69,11 @@ Epilepsy-Lesion-Segmentation/
 └── nnU-FCD/              # Submodule: nnU-Net v2 Evaluation & Segmentation Pipeline
 ```
 
-### 1. [SynthFCD](./SynthFCD) *(To Be Continued in the Far Future)*
+### 1. [SynthFCD](./SynthFCD)
 **Synthetic Data Generation for FCD II Lesion Segmentation in FLAIR MRI**  
 An active exploratory research pipeline investigating whether data scarcity bottlenecks in FCD lesion segmentation can be overcome by generating synthetic training images on-the-fly from anatomical label maps (`SynthSeg`-derived domain randomization). 
 
-> **Current Status**: `SynthFCD` currently does **not** outperform the supervised `nnU-FCD` baseline and does not yet have an associated published paper. It is released as a complete, reproducible pipeline alongside an honest analysis of generative lesion realism bottlenecks, with further research **to be continued in the far future**.
+> **Current Status**: `SynthFCD` currently does **not** outperform the supervised `nnU-FCD` baseline and does not yet have an associated published paper. It is released as a complete, reproducible pipeline alongside an honest analysis of generative lesion realism and transfer mechanics.
 
 * **Key Features**: On-the-fly 3D lesion synthesis, label map deformation, domain randomization, zero-real-data training pipeline.
 * **Remote Repository**: [github.com/YassienTawfikk/SynthFCD](https://github.com/YassienTawfikk/SynthFCD)
