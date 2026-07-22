@@ -1,0 +1,6 @@
+[submodule "SynthFCD"]
+	path = SynthFCD
+	url = https://github.com/YassienTawfikk/SynthFCD.git
+[submodule "nnU-FCD"]
+	path = nnU-FCD
+	url = https://github.com/YassienTawfikk/nnU-FCD.git
