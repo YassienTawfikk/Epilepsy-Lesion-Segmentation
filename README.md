@@ -10,9 +10,9 @@ This super repository integrates two independent research pipelines developed as
 
 ---
 
-## 🏆 IEEE EMBC Finalist Recognition
+## 🏆 IEEE EMBC Finalist Recognition (`nnU-FCD`)
 
-We are proud to announce that our graduation project **Epilepsy Lesion Segmentation (FCD II Suite)** has been selected as an **IEEE Finalist**!
+We are proud to announce that the **[nnU-FCD](./nnU-FCD)** branch of our graduation project—*Evaluation of nnU-Net for FCD II Lesion Segmentation in FLAIR MRI*—has been selected as an **IEEE EMBC Finalist**!
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0a2cb845-cf18-4833-98ee-b8d56bcdaef0" alt="IEEE Finalist Recognition" width="75%">
@@ -73,20 +73,22 @@ Below are the architectural pipeline diagrams from each of our two core submodul
   </tr>
 </table>
 
-### 1. [SynthFCD](./SynthFCD)
+### 1. [SynthFCD](./SynthFCD) *(To Be Continued in the Far Future)*
 **Synthetic Data Generation for FCD II Lesion Segmentation in FLAIR MRI**  
-A PyTorch implementation of a `SynthSeg`-derived pipeline that trains a 3D U-Net to segment Focal Cortical Dysplasia lesions using FLAIR volumes synthesized on-the-fly from anatomical label maps. This branch enables robust model training without requiring real patient MRI volumes in the training set through domain randomization, Gaussian Mixture sampling, and simulated physics/artifact corruptions (bias field, gamma transformations, and noise).
+An active exploratory research pipeline investigating whether data scarcity bottlenecks in FCD lesion segmentation can be overcome by generating synthetic training images on-the-fly from anatomical label maps (`SynthSeg`-derived domain randomization). 
+
+> **Current Status**: `SynthFCD` currently does **not** outperform the supervised `nnU-FCD` baseline and does not yet have an associated published paper. It is released as a complete, reproducible pipeline alongside an honest analysis of generative lesion realism bottlenecks, with further research **to be continued in the far future**.
 
 * **Key Features**: On-the-fly 3D lesion synthesis, label map deformation, domain randomization, zero-real-data training pipeline.
 * **Remote Repository**: [github.com/YassienTawfikk/SynthFCD](https://github.com/YassienTawfikk/SynthFCD)
 
 ---
 
-### 2. [nnU-FCD](./nnU-FCD)
-**Evaluation of nnU-Net for FCD II Lesions Segmentation in FLAIR MRI**  
-The official PyTorch implementation and evaluation framework for training, tuning, and deploying state-of-the-art `nnU-Net v2` architectures specifically optimized for automated detection and segmentation of FCD Type II lesions.
+### 2. [nnU-FCD](./nnU-FCD) *(IEEE EMBC Finalist & Official Paper Implementation)*
+**Evaluation of nnU-Net for FCD II Lesion Segmentation in FLAIR MRI**  
+The official PyTorch implementation, evaluation framework, and **IEEE EMBC Finalist** research paper addressing automated FCD Type II lesion detection. By incorporating radiological feature-based oversampling (`BSL + OVS + Aug`) and extensive domain augmentations on the standard Bonn FCD II dataset, `nnU-FCD` advances validation performance from `0.45` to `0.56` Pseudo Dice and establishes a reproducible benchmark.
 
-* **Key Features**: Full `nnU-Net v2` pre-processing and training pipeline, evaluation metrics, visual analysis, and pre-trained model checkpoints.
+* **Key Features**: Official IEEE EMBC paper implementation, radiological feature oversampling, `nnU-Net v2` pre-processing/training, pre-trained checkpoints.
 * **Remote Repository**: [github.com/YassienTawfikk/nnU-FCD](https://github.com/YassienTawfikk/nnU-FCD)
 
 ---
