@@ -8,21 +8,20 @@
   <tr>
     <td style="width:50%; text-align:center; vertical-align:top; border:none; padding:10px;">
       <a href="./SynthFCD">
-        <img src="https://github.com/user-attachments/assets/31dabe94-59b1-4f44-bc43-af62ed7dd85d" alt="SynthFCD Overview Poster" width="100%">
+        <img src="https://github.com/user-attachments/assets/31dabe94-59b1-4f44-bc43-af62ed7dd85d" alt="SynthFCD Pipeline" width="440">
       </a>
       <br>
-      <b><a href="./SynthFCD">SynthFCD: Synthetic Lesion Generation Overview</a></b>
+      <b><a href="./SynthFCD">SynthFCD: Synthetic Lesion Generation Pipeline</a></b>
     </td>
     <td style="width:50%; text-align:center; vertical-align:top; border:none; padding:10px;">
       <a href="./nnU-FCD">
-        <img src="https://raw.githubusercontent.com/YassienTawfikk/nnU-FCD/main/figures/nnU-Net%20PIPELINE.png" alt="nnU-FCD Poster" width="100%">
+        <img src="https://raw.githubusercontent.com/YassienTawfikk/nnU-FCD/main/figures/nnU-Net%20PIPELINE.png" alt="nnU-FCD Pipeline" width="440">
       </a>
       <br>
-      <b><a href="./nnU-FCD">nnU-FCD: Supervised 3D nnU-Net Methodology Poster</a></b>
+      <b><a href="./nnU-FCD">nnU-FCD: Supervised 3D nnU-Net Pipeline</a></b>
     </td>
   </tr>
 </table>
-
 An end-to-end deep learning framework and umbrella repository for **Focal Cortical Dysplasia (FCD Type II) Lesion Synthesis and Segmentation in 3D FLAIR MRI**. 
 
 This super repository integrates two independent research pipelines developed as part of this graduation project via Git Submodules, covering both synthetic data generation from anatomical label maps and state-of-the-art 3D medical image segmentation using nnU-Net.
