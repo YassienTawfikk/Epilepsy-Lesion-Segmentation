@@ -10,7 +10,7 @@ This super repository integrates two independent research pipelines developed as
 
 ---
 
-## 🏆 IEEE Finalist Recognition
+## 🏆 IEEE EMBC Finalist Recognition
 
 We are proud to announce that our graduation project **Epilepsy Lesion Segmentation (FCD II Suite)** has been selected as an **IEEE Finalist**!
 
@@ -58,14 +58,14 @@ Below are the architectural pipeline diagrams from each of our two core submodul
   <tr>
     <td style="width:50%; text-align:center; vertical-align:top; border:none; padding:10px;">
       <a href="./SynthFCD">
-        <img src="https://github.com/user-attachments/assets/31dabe94-59b1-4f44-bc43-af62ed7dd85d" alt="SynthFCD Pipeline" style="width:100%;">
+        <img src="https://github.com/user-attachments/assets/31dabe94-59b1-4f44-bc43-af62ed7dd85d" alt="SynthFCD Pipeline" width="440">
       </a>
       <br>
       <b><a href="./SynthFCD">SynthFCD: Synthetic Lesion Generation Pipeline</a></b>
     </td>
     <td style="width:50%; text-align:center; vertical-align:top; border:none; padding:10px;">
       <a href="./nnU-FCD">
-        <img src="https://raw.githubusercontent.com/YassienTawfikk/nnU-FCD/main/figures/nnU-Net%20PIPELINE.png" alt="nnU-FCD Pipeline" style="width:100%;">
+        <img src="https://raw.githubusercontent.com/YassienTawfikk/nnU-FCD/main/figures/nnU-Net%20PIPELINE.png" alt="nnU-FCD Pipeline" width="440">
       </a>
       <br>
       <b><a href="./nnU-FCD">nnU-FCD: Supervised 3D nnU-Net Pipeline</a></b>
